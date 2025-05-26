@@ -27,7 +27,7 @@ medical-translate/
 
 ## ✨ Features
 
-- **Multiple AI Models**: Compare translations from GPT-4o, Claude Sonnet-4, Claude Opus-4, and Gemini 2.5 Pro
+- **Multiple AI Models**: Compare translations from GPT-4o, Claude Sonnet-4, Claude Opus-4, and Qwen3 235B
 - **Consistent Prompting**: All models use the same prompt for fair comparison
 - **Progress Tracking**: Automatic progress saving every 10 rows
 - **Error Handling**: Robust error handling with retry mechanisms
@@ -106,7 +106,7 @@ python main.py -h
 | GPT-4o | OpenAI | Latest | Most balanced, excellent for translations |
 | Claude Sonnet-4 | Anthropic | Latest | Best reasoning and context handling |
 | Claude Opus-4 | Anthropic | Latest | Most capable, complex reasoning |
-| Gemini 2.5 Pro | Google | Preview | Large context window, multimodal |
+| Qwen3 235B | Alibaba Cloud | Latest | Large multilingual model, excellent for Asian languages |
 
 ## 📊 Output Format
 
@@ -117,7 +117,7 @@ The translation generates a CSV file with columns:
 - `gpt-4o_japanese`: Japanese translation by GPT-4o
 - `claude-sonnet-4_japanese`: Japanese translation by Claude Sonnet-4
 - `claude-opus-4_japanese`: Japanese translation by Claude Opus-4
-- `gemini-2.5-pro_japanese`: Japanese translation by Gemini 2.5 Pro
+- `qwen3-235b_japanese`: Japanese translation by Qwen3 235B
 
 ## 🏥 Medical Categories
 

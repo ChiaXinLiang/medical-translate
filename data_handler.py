@@ -51,7 +51,7 @@ class DataHandler:
             'gpt-4o_japanese': '',
             'claude-sonnet-4_japanese': '',
             'claude-opus-4_japanese': '',
-            'gemini-2.5-pro_japanese': ''
+            'qwen3-235b_japanese': ''
         }
     
     @staticmethod
@@ -73,7 +73,7 @@ class DataHandler:
             'gpt-4o_japanese',
             'claude-sonnet-4_japanese',
             'claude-opus-4_japanese',
-            'gemini-2.5-pro_japanese'
+            'qwen3-235b_japanese'
         ]
         
         with open(output_file, 'w', newline='', encoding='utf-8') as f:

@@ -68,7 +68,7 @@ class TranslationService:
         successful = {}
         
         for model_key in ['gpt-4o_japanese', 'claude-sonnet-4_japanese', 
-                         'claude-opus-4_japanese', 'gemini-2.5-pro_japanese']:
+                         'claude-opus-4_japanese', 'qwen3-235b_japanese']:
             successful[model_key] = sum(
                 1 for t in translations 
                 if t.get(model_key) and t[model_key] != "[Translation Failed]"
