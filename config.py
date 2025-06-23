@@ -15,10 +15,12 @@ class Config:
     
     # Model configurations - Using the latest flagship models (2025)
     MODELS = {
-        "gpt-4o": "openai/gpt-4o",  # Latest GPT-4o model
-        "claude-sonnet-4": "anthropic/claude-sonnet-4",  # Claude 3.5 Sonnet
-        "claude-opus-4": "anthropic/claude-opus-4",  # Claude 3 Opus - most capable
-        "qwen3-235b": "qwen/qwen3-235b-a22b"  # Qwen3 235B - large multilingual model
+        "o1-pro": "openai/o1-pro",  
+        "gpt-4.5-preview": "openai/gpt-4.5-preview",  
+        "claude-opus-4": "anthropic/claude-opus-4",  
+        "deepseek-r1-0528": "deepseek/deepseek-r1-0528",
+        "gemini-2.5-pro-preview": "google/gemini-2.5-pro-preview",
+        "qwen3-235b-a22b": "qwen/qwen3-235b-a22b"  
     }
     
     # Translation settings

@@ -3,14 +3,14 @@ import os
 import random
 
 # Set random seed for reproducibility
-random.seed(42)
+random.seed(32)
 
 # Define the base path
-base_path = "/Users/marcus/Documents/Projects/phd/niu/translate/med-safety-bench/datasets/train/gpt4/"
+base_path = "./datasets/train/gpt4/"
 
 # 300 samples total, 9 categories = 33 samples per category (with 3 extra distributed)
-samples_per_category = 33
-extra_samples = 3
+samples_per_category = 44
+extra_samples = 4
 
 all_samples = []
 
@@ -38,7 +38,7 @@ for i in range(9):
 random.shuffle(all_samples)
 
 # Save to new CSV file
-output_path = "/Users/marcus/Documents/Projects/phd/niu/translate/med_safety_sample_300.csv"
+output_path = "./med_safety_sample_300.csv"
 
 # Get fieldnames from the first sample
 fieldnames = ['category'] + [k for k in all_samples[0].keys() if k != 'category']

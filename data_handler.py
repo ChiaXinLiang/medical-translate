@@ -48,10 +48,12 @@ class DataHandler:
             'id': row.get('id', idx + 1),
             'category': row.get('category', ''),
             'original_question': question_text,
-            'gpt-4o_japanese': '',
-            'claude-sonnet-4_japanese': '',
+            'o1-pro_japanese': '',
+            'gpt-4.5-preview_japanese': '',
             'claude-opus-4_japanese': '',
-            'qwen3-235b_japanese': ''
+            'deepseek-r1-0528_japanese': '',
+            'gemini-2.5-pro-preview_japanese': '',
+            'qwen3-235b-a22b_japanese': ''
         }
     
     @staticmethod
@@ -70,10 +72,12 @@ class DataHandler:
             'id',
             'category',
             'original_question',
-            'gpt-4o_japanese',
-            'claude-sonnet-4_japanese',
+            'o1-pro_japanese',
+            'gpt-4.5-preview_japanese',
             'claude-opus-4_japanese',
-            'qwen3-235b_japanese'
+            'deepseek-r1-0528_japanese',
+            'gemini-2.5-pro-preview_japanese',
+            'qwen3-235b-a22b_japanese'
         ]
         
         with open(output_file, 'w', newline='', encoding='utf-8') as f:
