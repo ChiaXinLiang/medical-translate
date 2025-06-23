@@ -1,0 +1,20 @@
+train_gpt4_400_original:
+Total rows: 400
+o1-pro: 343/400 successful (85.75%)
+gpt-4.5-preview: 400/400 successful (100.0%)
+claude-opus-4: 394/400 successful (98.5%)
+deepseek-r1-0528: 399/400 successful (99.75%)
+gemini-2.5-pro-preview: 399/400 successful (99.75%)
+qwen3-235b-a22b: 340/400 successful (85.0%)
+
+
+
+
+train_llama2_50_original:
+Total rows: 50
+o1-pro: 46/50 successful (92.0%)
+gpt-4.5-preview: 50/50 successful (100.0%)
+claude-opus-4: 50/50 successful (100.0%)
+deepseek-r1-0528: 50/50 successful (100.0%)
+gemini-2.5-pro-preview: 50/50 successful (100.0%)
+qwen3-235b-a22b: 45/50 successful (90.0%)
